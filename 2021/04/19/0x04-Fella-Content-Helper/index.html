@@ -89,7 +89,7 @@
             <section class="inner">
                 <section class="inner-main">
                     <div class="post">
-    <article id="post-cktbbgxzm00067vfy5dq4684k" class="article article-type-post" itemscope
+    <article id="post-cktbqg0kf000fueku9v4x1uwr" class="article article-type-post" itemscope
     itemprop="blogPost">
 
     <div class="article-inner">
@@ -225,23 +225,42 @@ com.auu.localization.confirmTitleName
 <p>因为常量字符串是对字符串标识的有效引用，所以哪怕字符串标识有所改变，只要对应的常量没有改变，在项目中的使用的常量任然是有效的。</p>
 <h3 id="3-4-针对选中字符串内容"><a href="#3-4-针对选中字符串内容" class="headerlink" title="3.4 针对选中字符串内容"></a>3.4 针对选中字符串内容</h3><h4 id="3-4-1-生成随机标识"><a href="#3-4-1-生成随机标识" class="headerlink" title="3.4.1 生成随机标识"></a>3.4.1 生成随机标识</h4><p>同第<strong>3.3</strong>条一样，只不过当前操作只对选中的本地化字符串内容有效。</p>
 <h4 id="3-4-2-删除本地化字符串"><a href="#3-4-2-删除本地化字符串" class="headerlink" title="3.4.2 删除本地化字符串"></a>3.4.2 删除本地化字符串</h4><p>直接从当前选中的文件中删除选中的本地化字符串内容。</p>
-<h4 id="3-4-3-移除标签"><a href="#3-4-3-移除标签" class="headerlink" title="3.4.3 移除标签"></a>3.4.3 移除标签</h4><p><img src="/2021/04/19/0x04-Fella-Content-Helper/content-remove-tags.png"></p>
-<p>用于给选定字符串移除标签。</p>
-<p>在子菜单中显示选中字符串内容的所有标签，选中某个标签后，会遍历所有选中字符串，如果包含选择的标签类型，就会从字符串的标签列表中移除该标签。</p>
-<h4 id="3-4-4-增加标签"><a href="#3-4-4-增加标签" class="headerlink" title="3.4.4 增加标签"></a>3.4.4 增加标签</h4><p><img src="/2021/04/19/0x04-Fella-Content-Helper/content-add-tags.png"></p>
-<p>用于给选定字符串添加标签。</p>
-<p>在子菜单中会显示当前本地化文件中的所有标签，选择某一项后，会对所有选中内容增加选择的标签。</p>
-<p>在这里也支持新建标签，支持同时新建多个，每输入完一个，可以按回车以开启下一个标签的输入，如果取消的话，可以删除所有内容后，再点击确定，如下图：</p>
-<p><img src="/2021/04/19/0x04-Fella-Content-Helper/create-tags-alert.png"></p>
-<h4 id="3-4-5-拷贝"><a href="#3-4-5-拷贝" class="headerlink" title="3.4.5 拷贝"></a>3.4.5 拷贝</h4><p><img src="/2021/04/19/0x04-Fella-Content-Helper/010-menu-copy.png"></p>
-<p>用于拷贝当前选中的本地化字符串内容的某些特定信息，所有拷贝内容都以换行符分隔。</p>
+<h4 id="3-4-3-移除标签"><a href="#3-4-3-移除标签" class="headerlink" title="3.4.3 移除标签"></a>3.4.3 移除标签</h4><table>
+<thead>
+<tr>
+<th>用于给选定字符串移除标签。<br><br>在子菜单中显示选中字符串内容的所有标签，选中某个标签后，会遍历所有选中字符串，如果包含选择的标签类型，就会从字符串的标签列表中移除该标签。</th>
+<th><img src="/2021/04/19/0x04-Fella-Content-Helper/content-remove-tags.png"></th>
+</tr>
+</thead>
+</table>
+<h4 id="3-4-4-增加标签"><a href="#3-4-4-增加标签" class="headerlink" title="3.4.4 增加标签"></a>3.4.4 增加标签</h4><table>
+<thead>
+<tr>
+<th>用于给选定字符串添加标签。<br><br>在子菜单中会显示当前本地化文件中的所有标签，选择某一项后，会对所有选中内容增加选择的标签。<br><br>在这里也支持新建标签，支持同时新建多个，每输入完一个，可以按回车以开启下一个标签的输入，如果取消的话，可以删除所有内容后，再点击确定。</th>
+<th><img src="/2021/04/19/0x04-Fella-Content-Helper/content-add-tags.png"></th>
+</tr>
+</thead>
+</table>
+<h4 id="3-4-5-拷贝"><a href="#3-4-5-拷贝" class="headerlink" title="3.4.5 拷贝"></a>3.4.5 拷贝</h4><table>
+<thead>
+<tr>
+<th>用于拷贝当前选中的本地化字符串内容的某些特定信息，所有拷贝内容都以换行符分隔。</th>
+<th><img src="/2021/04/19/0x04-Fella-Content-Helper/010-menu-copy.png"></th>
+</tr>
+</thead>
+</table>
 <h4 id="3-4-6-复制到"><a href="#3-4-6-复制到" class="headerlink" title="3.4.6 复制到"></a>3.4.6 复制到</h4><p><img src="/2021/04/19/0x04-Fella-Content-Helper/content-copyto.png"></p>
 <p>用于将选中内容复制到其他的本地化文件中。</p>
 <p>如果选中了目标文件的某个分组，会把内容复制到选中的分组中，如果选择了自动匹配，会以当前选中的内容为主，从目标文件中查找相同的分组，如果有则会复制到目标分组中，如果没有，则会先创建一个相同的分组，然后再复制内容过去。</p>
-<h4 id="3-4-7-移动本地化字符串到分组"><a href="#3-4-7-移动本地化字符串到分组" class="headerlink" title="3.4.7 移动本地化字符串到分组"></a>3.4.7 移动本地化字符串到分组</h4><p><img src="/2021/04/19/0x04-Fella-Content-Helper/011-menu-move.png"></p>
-<p>移动选中的本地化字符串内容到指定的分组，也可以直接移动到一个新建的分组。</p>
-<h3 id="3-5-针对选中分组内容"><a href="#3-5-针对选中分组内容" class="headerlink" title="3.5 针对选中分组内容"></a>3.5 针对选中分组内容</h3><p><img src="/2021/04/19/0x04-Fella-Content-Helper/014-menu-group.png"></p>
-<h4 id="3-5-1-强制删除分组"><a href="#3-5-1-强制删除分组" class="headerlink" title="3.5.1 强制删除分组"></a>3.5.1 强制删除分组</h4><p>删除分组的同时，将会把该分组下的所有本地化字符串内容一并删除掉(默认分组不支持被删除)，所以，一般来说，对于分组的删除是不建议的，除非说您有很强烈的需求。</p>
+<h4 id="3-4-7-移动本地化字符串到分组"><a href="#3-4-7-移动本地化字符串到分组" class="headerlink" title="3.4.7 移动本地化字符串到分组"></a>3.4.7 移动本地化字符串到分组</h4><table>
+<thead>
+<tr>
+<th>移动选中的本地化字符串内容到指定的分组，也可以直接移动到一个新建的分组。</th>
+<th><img src="/2021/04/19/0x04-Fella-Content-Helper/011-menu-move.png"></th>
+</tr>
+</thead>
+</table>
+<h3 id="3-5-针对选中分组内容"><a href="#3-5-针对选中分组内容" class="headerlink" title="3.5 针对选中分组内容"></a>3.5 针对选中分组内容</h3><h4 id="3-5-1-强制删除分组"><a href="#3-5-1-强制删除分组" class="headerlink" title="3.5.1 强制删除分组"></a>3.5.1 强制删除分组</h4><p>删除分组的同时，将会把该分组下的所有本地化字符串内容一并删除掉(默认分组不支持被删除)，所以，一般来说，对于分组的删除是不建议的，除非说您有很强烈的需求。</p>
 <h4 id="3-5-2-移动内容并删除分组"><a href="#3-5-2-移动内容并删除分组" class="headerlink" title="3.5.2 移动内容并删除分组"></a>3.5.2 移动内容并删除分组</h4><p>将当前分组的内容先移动到选定分组，然后再删除当前分组。</p>
 <h3 id="3-6-集中显示内容"><a href="#3-6-集中显示内容" class="headerlink" title="3.6 集中显示内容"></a>3.6 集中显示内容</h3><h4 id="3-6-1-显示有缺失的内容"><a href="#3-6-1-显示有缺失的内容" class="headerlink" title="3.6.1 显示有缺失的内容"></a>3.6.1 显示有缺失的内容</h4><p>集中显示所有有缺失的内容，此处的缺失包含所有语言下内容的缺失和常量内容的缺失。</p>
 <h4 id="3-6-2-显示有改动的内容"><a href="#3-6-2-显示有改动的内容" class="headerlink" title="3.6.2 显示有改动的内容"></a>3.6.2 显示有改动的内容</h4><p>集中显示在本次使用中有改动的内容。</p>
@@ -249,13 +268,23 @@ com.auu.localization.confirmTitleName
 <h4 id="3-6-4-显示分组内容"><a href="#3-6-4-显示分组内容" class="headerlink" title="3.6.4 显示分组内容"></a>3.6.4 显示分组内容</h4><p>集中显示选中分组下的所有内容。</p>
 <h4 id="3-6-5-显示标签内容"><a href="#3-6-5-显示标签内容" class="headerlink" title="3.6.5 显示标签内容"></a>3.6.5 显示标签内容</h4><p>集中显示所有包含选中标签的字符串内容。</p>
 <h4 id="3-6-6-显示指定用户创建的内容"><a href="#3-6-6-显示指定用户创建的内容" class="headerlink" title="3.6.6 显示指定用户创建的内容"></a>3.6.6 显示指定用户创建的内容</h4><p>集中显示所有选中用户创建的内容，该功能只在2.0.0版本及以后支持。</p>
-<h4 id="3-6-7-显示选定日期内内容"><a href="#3-6-7-显示选定日期内内容" class="headerlink" title="3.6.7 显示选定日期内内容"></a>3.6.7 显示选定日期内内容</h4><p><img src="/2021/04/19/0x04-Fella-Content-Helper/content-date-filter.png"></p>
-<p>集中显示选定日期内的所有内容，该功能只在2.0.0版本及以后支持。</p>
-<p>暂时只支持如图所示的日期区间。</p>
+<h4 id="3-6-7-显示选定日期内内容"><a href="#3-6-7-显示选定日期内内容" class="headerlink" title="3.6.7 显示选定日期内内容"></a>3.6.7 显示选定日期内内容</h4><table>
+<thead>
+<tr>
+<th>集中显示选定日期内的所有内容，该功能只在2.0.0版本及以后支持。<br><br>暂时只支持如图所示的日期区间。</th>
+<th><img src="/2021/04/19/0x04-Fella-Content-Helper/content-date-filter.png"></th>
+</tr>
+</thead>
+</table>
 <h3 id="3-7-复杂筛选类"><a href="#3-7-复杂筛选类" class="headerlink" title="3.7 复杂筛选类"></a>3.7 复杂筛选类</h3><h4 id="3-7-1-显示未使用内容"><a href="#3-7-1-显示未使用内容" class="headerlink" title="3.7.1 显示未使用内容"></a>3.7.1 显示未使用内容</h4><p>遍历所有项目代码，使用当前文件中的字符串常量和字符串标识去做遍历筛选，查找所有在项目中没有使用到的内容。</p>
-<h4 id="3-7-2-显示相似内容"><a href="#3-7-2-显示相似内容" class="headerlink" title="3.7.2 显示相似内容"></a>3.7.2 显示相似内容</h4><p><img src="/2021/04/19/0x04-Fella-Content-Helper/012-menu-filter.png" alt="012-menu-filter"></p>
-<p>以选定的方式全局的匹配相似内容。</p>
-<p>此处的相似内容指的是整个本地化字符串的相似，在选定的语言下内容相同即表示相似，比如在复杂的”过滤所有语言”下会有如下结果：</p>
+<h4 id="3-7-2-显示相似内容"><a href="#3-7-2-显示相似内容" class="headerlink" title="3.7.2 显示相似内容"></a>3.7.2 显示相似内容</h4><table>
+<thead>
+<tr>
+<th>以选定的方式全局的匹配相似内容。<br><br>此处的相似内容指的是整个本地化字符串的相似，在选定的语言下内容相同即表示相似，比如在复杂的”过滤所有语言”下会有如下结果：</th>
+<th><img src="/2021/04/19/0x04-Fella-Content-Helper/012-menu-filter.png" alt="012-menu-filter"></th>
+</tr>
+</thead>
+</table>
 <table>
 <thead>
 <tr>
@@ -310,6 +339,15 @@ com.auu.localization.confirmTitleName
 
     
 <nav class="article-nav">
+  
+    <a href="/2021/09/08/0x05-Fella%E5%86%85%E5%AE%B9%E7%BC%96%E8%BE%91%E5%8C%BA/" id="article-nav-newer" class="article-nav-link-wrap">
+      <div class="article-nav-caption">下一篇</div>
+      <div class="article-nav-title">
+        
+          0x05 Fella内容编辑区
+        
+      </div>
+    </a>
   
   
     <a href="/2021/04/17/0x03-Fella-summary/" id="article-nav-older" class="article-nav-link-wrap">
@@ -396,6 +434,10 @@ com.auu.localization.confirmTitleName
       <ul>
         
           <li>
+            <a href="/2021/09/08/0x05-Fella%E5%86%85%E5%AE%B9%E7%BC%96%E8%BE%91%E5%8C%BA/">0x05 Fella内容编辑区</a>
+          </li>
+        
+          <li>
             <a href="/2021/04/19/0x04-Fella-Content-Helper/">0x04 Fella内容区及右键菜单说明</a>
           </li>
         
@@ -411,10 +453,6 @@ com.auu.localization.confirmTitleName
             <a href="/2021/04/15/0x01-Fella-Instructions/">0x01 Fella初步介绍</a>
           </li>
         
-          <li>
-            <a href="/2021/04/13/Fella-%E9%9A%90%E7%A7%81%E5%A3%B0%E6%98%8E/">Fella-隐私声明</a>
-          </li>
-        
       </ul>
     </div>
   </div>
@@ -424,7 +462,7 @@ com.auu.localization.confirmTitleName
   <div class="widget-wrap widget-archive">
     <div class="widget-title"><span>Archive</span></div>
     <div class="widget-inner">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">2021</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">2021</a></li></ul>
     </div>
   </div>
 
