@@ -89,7 +89,7 @@
             <section class="inner">
                 <section class="inner-main">
                     <div class="post">
-    <article id="post-ckte92wxj00049yfy2h0u9scn" class="article article-type-post" itemscope
+    <article id="post-cktk9qxmr00017ykubqng0ocj" class="article article-type-post" itemscope
     itemprop="blogPost">
 
     <div class="article-inner">
@@ -145,8 +145,9 @@
 <p>在项目的迭代过程中，整个app的UI样式会不断的优化改善，但是整体的结构都是一样的。</p>
 <p>如果后续整体结构有所改动，我会第一时间在这里同步更新的。</p>
 </blockquote>
-<h3 id="1-项目导航"><a href="#1-项目导航" class="headerlink" title="1. 项目导航"></a>1. 项目导航</h3><p>一键直达对应的Xcode项目所在目录，如果当前是编辑模式的话，这里将会不可点击，因为根本就找不到对应的Xcode项目。</p>
-<h3 id="2-文件切换"><a href="#2-文件切换" class="headerlink" title="2. 文件切换"></a>2. 文件切换</h3><p>在我们的项目中，每种语言都会对应一个strings文件，有时我们为了文件的拆分，又会增加不同的多语言文件，如：</p>
+<h3 id="1-页面导航"><a href="#1-页面导航" class="headerlink" title="1. 页面导航"></a>1. 页面导航</h3><p>用于显示/隐藏底部日志区(<code>command+L</code>)、右边编辑区(<code>command+K</code>)，支持快捷键操作。</p>
+<h3 id="2-快捷导出"><a href="#2-快捷导出" class="headerlink" title="2. 快捷导出"></a>2. 快捷导出</h3><p>快捷导出功能(<code>command+E</code>)，在菜单栏里设置了快捷导出的语言之后，就会显示该按钮，也支持快捷键操作。</p>
+<h3 id="3-文件切换"><a href="#3-文件切换" class="headerlink" title="3. 文件切换"></a>3. 文件切换</h3><p>在我们的项目中，每种语言都会对应一个strings文件，有时我们为了文件的拆分，又会增加不同的多语言文件，如：</p>
 <pre><code>├── de.lproj
 │   ├── Localizable.strings
 │   ├── Main.strings
@@ -185,7 +186,6 @@ Main.strings
 </code></pre>
 <p>在这部分我们就会切换：<code>Localizable.strings</code>、<code>TestLization.strings</code>、<code>Main.strings</code>几个文件。</p>
 <p>有些时候可能用了一些第三方的源码到项目中，在做资源遍历的时候会把三方源码里的strings文件也遍历到。为了避免重名导致的不方便确认，所以在切换strings文件的时候，会显式的提示文件的相对路径，避免您在使用时选择错误。</p>
-<h3 id="3-操作功能"><a href="#3-操作功能" class="headerlink" title="3. 操作功能"></a>3. 操作功能</h3><p>这部分提供了一些在开发过程中的辅助功能，具体的使用和用法，在后面单讲。</p>
 <h3 id="4-内容区"><a href="#4-内容区" class="headerlink" title="4. 内容区"></a>4. 内容区</h3><p>内容区是整个项目中字符串资源的完整展示区，以表格的样式将所有字符串的各语言内容、常量、状态等等显示出来。</p>
 <p>其中，第一列的显示的是各字符串内容的状态，包括以下几种：</p>
 <ul>
@@ -198,8 +198,8 @@ Main.strings
 </ul>
 <p>同时，为了方便使用，在内容区右键会有一个辅助菜单，提供了一些辅助性的操作功能，这个后面单讲。</p>
 <h3 id="5-内容编辑"><a href="#5-内容编辑" class="headerlink" title="5. 内容编辑"></a>5. 内容编辑</h3><p>展示、编辑多语言字符串、分组的部分。</p>
-<h3 id="6-本地化进度"><a href="#6-本地化进度" class="headerlink" title="6. 本地化进度"></a>6. 本地化进度</h3><p>实时展示各语言内容的本地化进度，如果显示红色的，说明这个语言类型下的字符串内容有些是有缺失的。</p>
-<h3 id="7-操作日志"><a href="#7-操作日志" class="headerlink" title="7. 操作日志"></a>7. 操作日志</h3><p>展示了各主要操作的历史记录，方便您的回溯，其中所有蓝色超链接样式的内容都可点击。</p>
+<h3 id="6-操作日志"><a href="#6-操作日志" class="headerlink" title="6. 操作日志"></a>6. 操作日志</h3><p>展示了各主要操作的历史记录，方便您的回溯，其中所有蓝色超链接样式的内容都可点击。</p>
+<h3 id="7-本地化进度"><a href="#7-本地化进度" class="headerlink" title="7. 本地化进度"></a>7. 本地化进度</h3><p>实时展示各语言内容的本地化进度，如果显示红色的，说明这个语言类型下的字符串内容有些是有缺失的。</p>
 
         </div>
 
@@ -320,7 +320,7 @@ Main.strings
           </li>
         
           <li>
-            <a href="/Fella/0x06_fella_tools/">0x06 Fella 工具</a>
+            <a href="/Fella/0x06_fella_shortcuts/">0x06 Fella 快捷键</a>
           </li>
         
           <li>
