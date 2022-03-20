@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-14T15:06:21.816Z</updated>
+  <updated>2022-03-20T04:31:59.143Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>绕线画-隐私声明</title>
+    <link href="http://example.com/Diagram/0x00_diagram_privacy/"/>
+    <id>http://example.com/Diagram/0x00_diagram_privacy/</id>
+    <published>2022-03-20T04:30:41.000Z</published>
+    <updated>2022-03-20T04:31:59.143Z</updated>
+    
+    <content type="html"><![CDATA[<p>Fella尊重并保护所有使用服务用户的个人隐私权。为了给您提供更准确、更有个性化的 服务，Fella会按照本隐私权政策的规定使用和披露您的个人信息。但Fella将以高度的勤勉、审慎义务对待这些信息。除本隐私权政策另有规定外，在未征得您事先许可的情况下 ，Fella不会将这些信息对外披露或向第三方提供。Fella会不时更新本隐私权政策 。 您在同意Fella服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于Fella服务使用协议不可分割的一部分。</p><span id="more"></span><ol><li><p>Fella会收集您的哪些信息<br>Fella是一款本地化使用的辅助开发工具，只会对您选择的本地目录权限在您当前使用的设备上做简单记忆。</p></li><li><p>信息使用<br>a) 首先，Fella需要记忆您选择的目录权限，以方便在下次启动项目的时候不需要再次选择；<br>b) Fella需要将您对项目做的所有改动持久化到本地；<br>c) Fella只支持用户操作发起的网络请求，不会通过网络将您的任何信息传送到本机以外的地方。</p></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Fella尊重并保护所有使用服务用户的个人隐私权。为了给您提供更准确、更有个性化的 服务，Fella会按照本隐私权政策的规定使用和披露您的个人信息。但Fella将以高度的勤勉、审慎义务对待这些信息。除本隐私权政策另有规定外，在未征得您事先许可的情况下 ，Fella不会将这些信息对外披露或向第三方提供。Fella会不时更新本隐私权政策 。 您在同意Fella服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于Fella服务使用协议不可分割的一部分。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diagram" scheme="http://example.com/categories/Diagram/"/>
+    
+    
+    <category term="隐私声明" scheme="http://example.com/tags/%E9%9A%90%E7%A7%81%E5%A3%B0%E6%98%8E/"/>
+    
+  </entry>
   
   <entry>
     <title>0x08 Preferences</title>
